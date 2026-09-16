@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trading Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">TradePro</div>
+    <ul class="nav-links">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Markets</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+    <div class="account">Account: 0706900843</div>
+  </nav>
+
+  <!-- Dashboard -->
+  <section class="dashboard">
+    <div class="market-overview">
+      <h2>Market Overview</h2>
+      <canvas id="marketChart"></canvas>
+    </div>
+
+    <div class="portfolio">
+      <h2>Your Portfolio</h2>
+      <table>
+        <tr>
+          <th>Asset</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>BTC</td>
+          <td>0.5</td>
+          <td>$27,000</td>
+          <td>$13,500</td>
+        </tr>
+        <tr>
+          <td>ETH</td>
+          <td>2</td>
+          <td>$1,600</td>
+          <td>$3,200</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 TradePro. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
